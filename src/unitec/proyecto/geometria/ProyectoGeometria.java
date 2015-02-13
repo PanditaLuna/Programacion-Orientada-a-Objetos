@@ -105,6 +105,7 @@ public class ProyectoGeometria extends javax.swing.JFrame {
       //pedirle el valor del numero al campo de texto 
         //y transformarlo a un numero real
         Cuadrado c=new Cuadrado();
+        
         c.setLado(Float.parseFloat(textoLado.getText()));
         etiquetaResultado.setText("El area es:" + c.calcularArea()); 
     }//GEN-LAST:event_botonCalcularAreaActionPerformed

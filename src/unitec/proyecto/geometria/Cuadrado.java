@@ -4,8 +4,16 @@ package unitec.proyecto.geometria;
 
 
 public class Cuadrado {
-    float lado;
+    private float lado;
+    
+    public Cuadrado (float lado){
+        this.lado = lado;
+    }
 
+    
+    public Cuadrado(){
+        
+    }
     public float getLado() {
         return lado;
     }
